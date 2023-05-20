@@ -11,19 +11,19 @@ app.use(express.json());
 const MERKLE_ROOT = '';
 
 app.post('/gift', (req, res) => {
-  // grab the parameters from the front-end here
-  const body = req.body;
+    // grab the parameters from the front-end here
+    const body = req.body;
 
-  // TODO: prove that a name is in the list 
-  const isInTheList = false;
-  if(isInTheList) {
-    res.send("You got a toy robot!");
-  }
-  else {
-    res.send("You are not on the list :(");
-  }
+    // TODO: prove that a name is in the list 
+    const isInTheList = false;
+    if (isInTheList) {
+        res.send("You got a toy robot!");
+    }
+    else {
+        res.send("You are not on the list :(");
+    }
 });
 
 app.listen(port, () => {
-  console.log(`Listening on port ${port}!`);
+    console.log(`Listening on port ${port}!`);
 });

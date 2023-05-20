@@ -1,3 +1,12 @@
+## Solution included
+This repo contains the solution for the task decribed below.
+
+**Important notes**: 
+
+
+---
+.
+
 # Gift List
 
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
