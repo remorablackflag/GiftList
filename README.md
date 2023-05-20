@@ -1,7 +1,13 @@
 ## Solution included
 This repo contains the solution for the task decribed below.
 
-**Important notes**: 
+### Usage (client)
+
+    node index.js <index>
+
+The default index exists in the list.
+
+Set a large enough index to choose a nonexisting name.
 
 
 ---
